@@ -32,6 +32,7 @@ import mmpsLogo from './assets/education_logo/school_logo.png';
 // Project Section Logo's
 import basicCalculatorLogo from './assets/work_logo/basic_calculator.jpg';
 import imageSliderLogo from './assets/work_logo/image_slider.jpg';
+import notesHubLogo from './assets/work_logo/notesHubLogo.jpg';
 
 export const SkillsInfo = [
   {
@@ -155,5 +156,15 @@ export const SkillsInfo = [
       image: imageSliderLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Zaid-khan01/Image_Slider-Project",
+    },
+    {
+      id: 2,
+      title: "Notes Hub",
+      description:
+        "A modern platform for students to access, browse, and download academic notes — from school (Class 10–12) to college (BCA, BTech, Diploma) — all in one hub.",
+      image: notesHubLogo,
+      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Cloudinary"],
+      github: "https://github.com/Zaid-khan01/NotesHub",
+      demo: "https://notes-hub-nu.vercel.app/",
     },
   ];  
