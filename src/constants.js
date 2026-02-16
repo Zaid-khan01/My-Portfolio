@@ -30,9 +30,11 @@ import gbsssLogo from './assets/education_logo/gbsssLogo.jpg';
 import mmpsLogo from './assets/education_logo/school_logo.png';
 
 // Project Section Logo's
+import insightHubLogo from './assets/work_logo/insightHub.jpg';
+import contactManagementLogo from './assets/work_logo/contactManagement.jpg';
+import notesHubLogo from './assets/work_logo/notesHubLogo.jpg';
 import basicCalculatorLogo from './assets/work_logo/basic_calculator.jpg';
 import imageSliderLogo from './assets/work_logo/image_slider.jpg';
-import notesHubLogo from './assets/work_logo/notesHubLogo.jpg';
 
 export const SkillsInfo = [
   {
@@ -140,22 +142,23 @@ export const SkillsInfo = [
  export const projects = [
     {
       id: 0,
-      title: "Basic Calculator",
+      title: "Insight Hub",
       description:
-        "A sleek and intuitive calculator app built with HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations with ease and precision.",
-
-      image: basicCalculatorLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Zaid-khan01/Calculator-Project",
+        "InsightHub is your intelligent data companion. It transforms your raw Excel or CSV files into meaningful visual insights and delivers AI-powered suggestions in seconds.",
+      image: insightHubLogo,
+      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Pandas", "NumPy", "Grok API"],
+      github: "https://github.com/Zaid-khan01/InsightHub",
+      demo: "https://insight-hub-nine.vercel.app/",
     },
     {
       id: 1,
-      title: "Image Slider",
+      title: "Contact Management",
       description:
-        "A smooth and responsive image slider built with HTML, CSS, and JavaScript, allowing users to seamlessly navigate through a gallery of images with clean transitions and interactive controls.",
-      image: imageSliderLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Zaid-khan01/Image_Slider-Project",
+        "Smart Contact Manager is a modern, full-stack web application that helps you store, manage, and organize contacts efficiently with a clean UI and a powerful backend.",
+      image: contactManagementLogo,
+      tags: ["React", "Tailwind-CSS", "JavaScript", "Node JS"],
+      github: "https://github.com/Zaid-khan01/Contact-Management",
+      demo: "https://contact-management-baia.vercel.app/",
     },
     {
       id: 2,
@@ -166,5 +169,24 @@ export const SkillsInfo = [
       tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Cloudinary"],
       github: "https://github.com/Zaid-khan01/NotesHub",
       demo: "https://notes-hub-nu.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Basic Calculator",
+      description:
+        "A sleek and intuitive calculator app built with HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations with ease and precision.",
+
+      image: basicCalculatorLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Zaid-khan01/Calculator-Project",
+    },
+    {
+      id: 4,
+      title: "Image Slider",
+      description:
+        "A smooth and responsive image slider built with HTML, CSS, and JavaScript, allowing users to seamlessly navigate through a gallery of images with clean transitions and interactive controls.",
+      image: imageSliderLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Zaid-khan01/Image_Slider-Project",
     },
   ];  
