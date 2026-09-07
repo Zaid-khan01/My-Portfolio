@@ -30,16 +30,11 @@ import gbsssLogo from './assets/education_logo/gbsssLogo.jpg';
 import mmpsLogo from './assets/education_logo/school_logo.png';
 
 // Project Section Logo's
-<<<<<<< HEAD
-import insightHubLogo from './assets/work_logo/insightHub.jpg';
-import contactManagementLogo from './assets/work_logo/contactManagement.jpg';
-import notesHubLogo from './assets/work_logo/notesHubLogo.jpg';
-=======
 import saralLogo from './assets/work_logo/saral.png';
 import realTimeCodeEditorLogo from './assets/work_logo/realTimeCodeEditor.png';
 import insightHubLogo from './assets/work_logo/insightHub.jpg';
 import contactManagementLogo from './assets/work_logo/contactManagement.jpg';
->>>>>>> d2f28bc (Added 2 more projects)
+import notesHubLogo from './assets/work_logo/notesHubLogo.jpg';
 import basicCalculatorLogo from './assets/work_logo/basic_calculator.jpg';
 import imageSliderLogo from './assets/work_logo/image_slider.jpg';
 
@@ -147,115 +142,72 @@ export const SkillsInfo = [
   ];
   
  export const projects = [
-    {
-      id: 0,
-<<<<<<< HEAD
-      title: "Insight Hub",
-=======
-      title: "Saral",
-      description:
-        "Saral is a modern AI-powered digital queue management platform that eliminates physical waiting lines by enabling users to book live tokens online, track queue progress in real time, and receive intelligent wait-time predictions.",
-      image: saralLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT"],
-      github: "https://github.com/Zaid-khan01/Saral",
-      demo: "https://saral-mauve.vercel.app/",
-    },
-    {
-      id: 1,
-      title: "Real Time Code Editor",
-      description:
-        "Real-Time Code Editor is a collaborative development platform that enables multiple users to work on code simultaneously, providing a seamless real-time editing experience through a modern web-based workspace.",
-      image: realTimeCodeEditorLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Node.js", "Express.js", "Socket.IO"],
-      github: "https://github.com/Zaid-khan01/real-time-code-editor",
-      demo: "https://real-time-code-editor-green.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Insight Hub",
-      description:
-        "InsightHub is your intelligent data companion. It transforms your raw Excel or CSV files into meaningful visual insights and delivers AI-powered suggestions in seconds.",
-      image: insightHubLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Pandas", "NumPy", "Grok API"],
-      github: "https://github.com/Zaid-khan01/InsightHub",
-      demo: "https://insight-hub-nine.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Contact Management",
-      description:
-        "Smart Contact Manager is a modern, full-stack web application that helps you store, manage, and organize contacts efficiently with a clean UI and a powerful backend.",
-      image: contactManagementLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Node JS"],
-      github: "https://github.com/Zaid-khan01/Contact-Management",
-      demo: "https://contact-management-baia.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "Notes Hub",
-      description:
-        "A modern platform for students to access, browse, and download academic notes — from school (Class 10–12) to college (BCA, BTech, Diploma) — all in one hub.",
-      image: notesHubLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Cloudinary"],
-      github: "https://github.com/Zaid-khan01/NotesHub",
-      demo: "https://notes-hub-nu.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "Basic Calculator",
->>>>>>> d2f28bc (Added 2 more projects)
-      description:
-        "InsightHub is your intelligent data companion. It transforms your raw Excel or CSV files into meaningful visual insights and delivers AI-powered suggestions in seconds.",
-      image: insightHubLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Pandas", "NumPy", "Grok API"],
-      github: "https://github.com/Zaid-khan01/InsightHub",
-      demo: "https://insight-hub-nine.vercel.app/",
-    },
-    {
-<<<<<<< HEAD
-      id: 1,
-      title: "Contact Management",
-=======
-      id: 6,
-      title: "Image Slider",
->>>>>>> d2f28bc (Added 2 more projects)
-      description:
-        "Smart Contact Manager is a modern, full-stack web application that helps you store, manage, and organize contacts efficiently with a clean UI and a powerful backend.",
-      image: contactManagementLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Node JS"],
-      github: "https://github.com/Zaid-khan01/Contact-Management",
-      demo: "https://contact-management-baia.vercel.app/",
-    },
-<<<<<<< HEAD
-    {
-      id: 2,
-      title: "Notes Hub",
-      description:
-        "A modern platform for students to access, browse, and download academic notes — from school (Class 10–12) to college (BCA, BTech, Diploma) — all in one hub.",
-      image: notesHubLogo,
-      tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Cloudinary"],
-      github: "https://github.com/Zaid-khan01/NotesHub",
-      demo: "https://notes-hub-nu.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Basic Calculator",
-      description:
-        "A sleek and intuitive calculator app built with HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations with ease and precision.",
-
-      image: basicCalculatorLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Zaid-khan01/Calculator-Project",
-    },
-    {
-      id: 4,
-      title: "Image Slider",
-      description:
-        "A smooth and responsive image slider built with HTML, CSS, and JavaScript, allowing users to seamlessly navigate through a gallery of images with clean transitions and interactive controls.",
-      image: imageSliderLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Zaid-khan01/Image_Slider-Project",
-    },
-=======
->>>>>>> d2f28bc (Added 2 more projects)
-  ];  
+  {
+    id: 0,
+    title: "Saral",
+    description:
+      "Saral is a modern AI-powered digital queue management platform that eliminates physical waiting lines by enabling users to book live tokens online, track queue progress in real time, and receive intelligent wait-time predictions.",
+    image: saralLogo,
+    tags: ["React", "Tailwind-CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT"],
+    github: "https://github.com/Zaid-khan01/Saral",
+    demo: "https://saral-mauve.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Real Time Code Editor",
+    description:
+      "Real-Time Code Editor is a collaborative development platform that enables multiple users to work on code simultaneously, providing a seamless real-time editing experience through a modern web-based workspace.",
+    image: realTimeCodeEditorLogo,
+    tags: ["React", "Tailwind-CSS", "JavaScript", "Node.js", "Express.js", "Socket.IO"],
+    github: "https://github.com/Zaid-khan01/real-time-code-editor",
+    demo: "https://real-time-code-editor-green.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Insight Hub",
+    description:
+      "InsightHub is your intelligent data companion. It transforms your raw Excel or CSV files into meaningful visual insights and delivers AI-powered suggestions in seconds.",
+    image: insightHubLogo,
+    tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Pandas", "NumPy", "Grok API"],
+    github: "https://github.com/Zaid-khan01/InsightHub",
+    demo: "https://insight-hub-nine.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Contact Management",
+    description:
+      "Smart Contact Manager is a modern, full-stack web application that helps you store, manage, and organize contacts efficiently with a clean UI and a powerful backend.",
+    image: contactManagementLogo,
+    tags: ["React", "Tailwind-CSS", "JavaScript", "Node JS"],
+    github: "https://github.com/Zaid-khan01/Contact-Management",
+    demo: "https://contact-management-baia.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Notes Hub",
+    description:
+      "A modern platform for students to access, browse, and download academic notes — from school (Class 10–12) to college (BCA, BTech, Diploma) — all in one hub.",
+    image: notesHubLogo,
+    tags: ["React", "Tailwind-CSS", "JavaScript", "Django Rest Framework", "Cloudinary"],
+    github: "https://github.com/Zaid-khan01/NotesHub",
+    demo: "https://notes-hub-nu.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Basic Calculator",
+    description:
+      "A sleek and intuitive calculator app built with HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations with ease and precision.",
+    image: basicCalculatorLogo,
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Zaid-khan01/Calculator-Project",
+  },
+  {
+    id: 6,
+    title: "Image Slider",
+    description:
+      "A smooth and responsive image slider built with HTML, CSS, and JavaScript, allowing users to seamlessly navigate through a gallery of images with clean transitions and interactive controls.",
+    image: imageSliderLogo,
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Zaid-khan01/Image_Slider-Project",
+  },
+];
